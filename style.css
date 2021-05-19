@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("Images/night.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 60%;
+  height: 80vh;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+.city {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.temperature {
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.celcius {
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.daytime {
+  display: inline-block;
+  width: 5rem;
+  font-weight: 100;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.weather-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-info h3 {
+  font-weight: 200;
+  margin-top: 1rem;
+}
