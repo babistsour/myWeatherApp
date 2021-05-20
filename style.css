@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("images/night.png");
+  background-image: url("/images/night.png");
   background-position: center;
   background-size: cover;
   height: 100vh;
